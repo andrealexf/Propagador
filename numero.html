@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero-Propagador</title>
+    <link rel="stylesheet" href="numero.css">
+</head>
+<body>
+    
+    <header>
+        <h1>PropagadorDeErro3000</h1>
+        <h2>Propagação de Erro</h2>
+    </header>
+
+    <div>
+        <p>Insira o número e seu erro nos espaçoes em branco:</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="inputs">
+        <input id="num1" size="10" type="number">±        
+        <input id="enum1" size="7" type="number">  
+        <select id="op"><option>+</option><option>-</option><option>x</option><option>/</option></select>
+        <input id="num2" size="10" type="number">±
+        <input id="enum2" size="7" type="number"> 
+        <br><br>
+        <input id="btn" size="7" type="button" value="Enviar" onclick="enviar()">
+    </div>
+
+    <div id="resposta">
+        
+    </div>
+
+<script src="numero.js"></script>
+</body>
+</html>

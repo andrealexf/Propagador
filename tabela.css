@@ -1,0 +1,138 @@
+body{
+    /* background-image: url(3665587.jpg); 
+    background-size: 40% 40%;
+    background-repeat: repeat;     */
+    background-color: rgb(77, 249, 103);
+}
+
+h1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20pt;
+    color: rgb(255, 85, 0);
+    text-decoration: dotted;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(239, 253, 80);
+}
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 15pt;
+    margin-left: 20px;
+}
+
+table#table{
+    display: absolute;
+    border-collapse: collapse;
+    width: 60%;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table th {
+    background-color: rgb(223, 107, 255);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+table td,th {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+table tr > td:nth-child(even) {
+    border-right: 2px solid black; /* Adiciona uma borda mais forte à direita para as colunas pares */
+}
+
+input#segundo_vet1{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+input#primeiro_vet1{
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+select {
+    border-radius: 10px;
+}
+
+input#btn{
+    border-radius: 5px;
+}
+
+p#pp{
+    text-align: left;
+
+}
+
+table#table2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+table#table2 tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+table#table2 {
+    border-bottom: 2px solid black;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-right: 10px;
+    text-align: center;
+    width: 400px;
+  
+}
+
+table#table2 th{
+
+    background-color:rgb(251, 137, 203);
+
+}
+ 
+table#supertable{
+    display: inline-flex;
+    border-collapse: separate;
+    border-spacing: 200px 0;
+    margin-left: 20px;
+
+}
+
+div#resposta {
+    margin-right: 20px;
+    overflow: auto;
+}
+
+div#ins{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+div#foo{
+    
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position:fixed;
+    bottom: 10px;
+    left: 47%;
+
+}
+
+footer{
+    text-align: center;
+    display: inline-block;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(77, 249, 103);
+}
+
+h1{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 20pt;
+    color: rgb(255, 85, 0);
+    text-decoration: dotted;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(239, 253, 80);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 15pt;
+    margin-left: 20px;
+}
+
+div#inputs{
+    text-align: center;
+}
+
+input#num1::-webkit-inner-spin-button,input#num2::-webkit-inner-spin-button,input#enum1::-webkit-inner-spin-button,input#enum2::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+input#num1,#num2{
+    margin-right: 5px;
+    background-color: #ffffff;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input#enum1,#enum2{
+    background-color: #f2f2f2;
+    width: 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+select{
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
