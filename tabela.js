@@ -91,8 +91,7 @@ var nj
         }
  
         var rows = text.split(NEWLINE)
-        var rolas = text.split(NEWLINE)
-        var num_colunas = rolas.shift().trim().split(DELIMITER).length
+        var num_colunas = rows.shift().trim().split(DELIMITER).length
 
         headers = []
         nascii = 65
